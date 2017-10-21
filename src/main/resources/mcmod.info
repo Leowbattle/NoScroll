@@ -1,0 +1,16 @@
+[
+{
+  "modid": "noscroll",
+  "name": "No Scroll",
+  "description": "",
+  "version": "",
+  "mcversion": "",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["meee39"],
+  "credits": "This mod owes its existence to Mojang not adding the options to disable the scroll wheel themselves.",
+  "logoFile": "noscroll.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
