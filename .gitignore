@@ -20,3 +20,7 @@ build
 # other
 eclipse
 run
+
+#I expect most of you are on Windows
+#And its really annoying anyway :)
+.DS_Store
