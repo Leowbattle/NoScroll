@@ -12,7 +12,7 @@ import noscroll.proxies.ClientProxy;
 public class NoScroll {
 	public static final String MODID = "noscroll";
 	public static final String NAME = "No Scroll";
-	public static final String VERSION = "1.0";
+	public static final String VERSION = "1.1";
 	public static final String ACCEPTEDMINECRAFTVERSIONS = "[1.12, 1.12.1]";
 	
 	@SidedProxy(serverSide = "noscroll.proxies.ServerProxy", clientSide = "noscroll.proxies.ClientProxy")
