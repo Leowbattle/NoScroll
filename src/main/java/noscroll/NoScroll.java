@@ -1,6 +1,7 @@
 package noscroll;
 
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -28,6 +29,7 @@ public class NoScroll {
 	
 	@Mod.EventHandler
 	public static void init(FMLInitializationEvent event) {
+		KeyBinds.initKeyBinds();
 		proxy.init();
 	}
 	

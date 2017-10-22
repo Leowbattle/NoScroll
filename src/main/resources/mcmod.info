@@ -5,11 +5,8 @@
   "description": "",
   "version": "",
   "mcversion": "",
-<<<<<<< HEAD
   "url": "https://github.com/Leowbattle/NoScroll",
-=======
   "url": "",
->>>>>>> branch 'master' of https://github.com/Leowbattle/NoScroll.git
   "updateUrl": "",
   "authorList": ["meee39"],
   "credits": "This mod owes its existence to Mojang not adding the options to disable the scroll wheel themselves.",
