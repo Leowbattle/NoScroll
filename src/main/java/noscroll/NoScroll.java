@@ -9,12 +9,11 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import noscroll.proxies.ClientProxy;
 
-@Mod(modid = NoScroll.MODID, name = NoScroll.NAME, version = NoScroll.VERSION, acceptedMinecraftVersions = NoScroll.ACCEPTEDMINECRAFTVERSIONS)
+@Mod(modid = NoScroll.MODID, name = NoScroll.NAME, version = NoScroll.VERSION, clientSideOnly = true)
 public class NoScroll {
 	public static final String MODID = "noscroll";
 	public static final String NAME = "No Scroll";
-	public static final String VERSION = "1.1";
-	public static final String ACCEPTEDMINECRAFTVERSIONS = "[1.12, 1.12.1, 1.12.2]";
+	public static final String VERSION = "1.1.3";
 	
 	@SidedProxy(serverSide = "noscroll.proxies.ServerProxy", clientSide = "noscroll.proxies.ClientProxy")
 	public static ClientProxy proxy;
